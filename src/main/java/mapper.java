@@ -31,3 +31,4 @@ public class WordcountMapper extends Mapper<LongWritable, Text, Text, IntWritabl
 		}
 		cleanup(context);
 	}
+}
